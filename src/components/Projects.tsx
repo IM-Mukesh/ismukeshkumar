@@ -56,14 +56,18 @@ export default function Projects() {
                 </div>
 
                 <div className="flex items-center gap-4 font-mono-tag text-xs tracking-widest uppercase">
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 hover:text-accent transition-colors"
-                  >
-                    Live <ArrowUpRight size={14} />
-                  </a>
+                  {project.liveUrl ? (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 hover:text-accent transition-colors"
+                    >
+                      Live <ArrowUpRight size={14} />
+                    </a>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5 text-muted">In Progress</span>
+                  )}
                 </div>
               </TiltCard>
             </motion.div>

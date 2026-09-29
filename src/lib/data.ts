@@ -100,39 +100,21 @@ export const roadmap = [
 export const projects = [
   {
     id: "01",
-    category: "Mobile & Full-Stack",
-    title: "Library Management App",
+    category: "Full-Stack SaaS",
+    title: "HeroTyping",
     description:
-      "Scalable full-stack Android app for libraries with React Native, Node.js, TypeScript, MongoDB and Redis. Supports 70+ libraries and 2300+ students with JWT auth, API rate limiting, and AI-powered search suggestions.",
-    tags: ["React Native", "Node.js", "TypeScript", "MongoDB", "Redis"],
-    liveUrl: "https://lib-store.s3.eu-north-1.amazonaws.com/lib/library.apk",
+      "Free online typing speed test with structured lessons, weak-key practice, vocabulary training, and typing games. Tracks Gross WPM, Net WPM, accuracy, and consistency — no account required.",
+    tags: ["Next.js", "React", "TypeScript"],
+    liveUrl: "https://herotyping.com",
   },
   {
     id: "02",
     category: "Full-Stack SaaS",
-    title: "RateNStyle",
+    title: "Site Radar",
     description:
-      "QR-based salon feedback platform with real-time dashboard analytics and AI sentiment analysis. Collected 350+ reviews from 20+ salons, increasing feedback submission by 60%.",
-    tags: ["React", "Node.js", "MongoDB", "Redis", "Google OAuth"],
-    liveUrl: "http://salon.beast11.com/",
-  },
-  {
-    id: "03",
-    category: "Sports Tech",
-    title: "Beast11",
-    description:
-      "Robust, scalable fantasy cricket platform with team creation, player stats tracking, and real-time score updates.",
-    tags: ["TypeScript", "React.js", "Next.js"],
-    liveUrl: "https://www.beast11.com/",
-  },
-  {
-    id: "04",
-    category: "Frontend Utility",
-    title: "Image Compressor",
-    description:
-      "In-browser image compression tool using HTML5 File APIs. Adjust quality, preview output, and convert between JPG, PNG and WebP — all client-side with no server upload.",
-    tags: ["React", "HTML5 File APIs"],
-    liveUrl: "https://image.beast11.com",
+      "Website intelligence tool — drop in any URL and get a full breakdown of traffic estimates, SEO issues, and site health, all in one report.",
+    tags: ["Next.js", "React", "Node.js"],
+    liveUrl: null,
   },
 ];
 
